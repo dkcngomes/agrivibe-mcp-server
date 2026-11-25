@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Live Copernicus Data Space Sentinel-2 Statistical API provider."""
 
 import asyncio

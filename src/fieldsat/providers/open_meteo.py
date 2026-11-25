@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Live Open-Meteo weather evidence provider."""
 
 import asyncio

@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Deterministic providers and fields for tests and for the offline demo mode.
 
 The demo mode (`--demo`) serves these numbers instead of calling Copernicus and

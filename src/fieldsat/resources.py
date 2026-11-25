@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Resources: read-only data the client application attaches, rather than the model calling."""
 
 import json

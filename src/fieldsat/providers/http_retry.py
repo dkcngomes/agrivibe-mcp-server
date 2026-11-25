@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Small bounded retry and redacted structured logging helpers for provider HTTP."""
 
 import asyncio

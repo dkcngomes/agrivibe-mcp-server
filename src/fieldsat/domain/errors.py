@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Domain errors translated into MCP tool errors by the server boundary."""
 
 from typing import Literal

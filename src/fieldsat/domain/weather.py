@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Weather aggregation for the frozen seven-day and 48-hour output windows."""
 
 from collections import defaultdict

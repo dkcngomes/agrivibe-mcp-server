@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Satellite aggregation and STEM Link demonstration classifications."""
 
 from typing import Literal

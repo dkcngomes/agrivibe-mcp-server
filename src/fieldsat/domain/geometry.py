@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Polygon geometry helpers: closed rings, centroid, and self-intersection checks."""
 
 import math

@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Provider-neutral evidence passed into the frozen MCP semantic layer."""
 
 from dataclasses import dataclass

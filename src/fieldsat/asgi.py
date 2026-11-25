@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """ASGI app for hosting the live server behind uvicorn or a platform such as Vercel.
 
 uv run uvicorn fieldsat.asgi:app --port 8000

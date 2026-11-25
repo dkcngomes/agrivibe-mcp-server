@@ -1,3 +1,5 @@
+# Developer: D.K.C.Nipuna Gomes
+
 """Frozen AgriVibe evidence contracts."""
 
 from typing import Literal
