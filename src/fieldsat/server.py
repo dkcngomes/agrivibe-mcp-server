@@ -29,8 +29,7 @@ def create_server(
     fields: tuple[RegisteredField, ...] = REGISTERED_FIELDS,
     find_field: FieldLookup = find_registered_field,
 ) -> FastMCP:
-    mcp = FastMCP(
-        name="STEM Link Satellite MCP",
+    mcp = FastMCP("AgriVibe Satellite MCP",
         instructions=INSTRUCTIONS,
         version=__version__,
         # Unexpected exceptions reach the client as a generic message, not a stack trace.

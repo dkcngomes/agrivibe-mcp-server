@@ -1,6 +1,6 @@
 # Developer: D.K.C.Nipuna Gomes
 
-"""Satellite aggregation and STEM Link demonstration classifications."""
+"""Satellite aggregation and AgriVibe demonstration classifications."""
 
 from typing import Literal
 

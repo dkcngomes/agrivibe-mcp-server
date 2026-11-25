@@ -1,1 +1,1 @@
-"""Test package for the STEM Link Satellite MCP server."""
+"""Test package for the AgriVibe Satellite MCP server."""

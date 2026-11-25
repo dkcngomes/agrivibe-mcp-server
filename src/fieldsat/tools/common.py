@@ -24,6 +24,6 @@ FieldId = Annotated[
     Field(
         min_length=1,
         max_length=64,
-        description="Registered STEM Link field identifier, for example SL-PADDY-MINNERIYA",
+        description="Registered AgriVibe field identifier, for example SL-PADDY-MINNERIYA",
     ),
 ]

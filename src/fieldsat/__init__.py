@@ -1,5 +1,5 @@
 # Developer: D.K.C.Nipuna Gomes
 
-"""STEM Link Satellite MCP server: field-level satellite and weather evidence over MCP."""
+"""AgriVibe Satellite MCP server: field-level satellite and weather evidence over MCP."""
 
 __version__ = "0.3.0"
