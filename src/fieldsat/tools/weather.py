@@ -34,23 +34,23 @@ def register_weather_tools(
         historical_days: Annotated[
             int,
             Field(
-                ge=1,
-                le=30,
+                ge=1, # Number of Days of historical weather data to retrieve Greater Than or Equal to 1
+                le=30, # Number of Days of historical weather data to retrieve Less Than or Equal to 30
                 description=(
                     "Requested historical provider window; output always covers the last 7 days"
                 ),
             ),
-        ] = 7,
+        ] = 7, # Default to 7 days of historical weather data
         forecast_days: Annotated[
             int,
             Field(
-                ge=1,
-                le=7,
+                ge=1, # Number of Days of forecast weather data to retrieve Greater Than or Equal to 1
+                le=7, # Number of Days of forecast weather data to retrieve Less Than or Equal to 7
                 description=(
                     "Requested forecast provider window; output always covers the next 48 hours"
                 ),
             ),
-        ] = 2,
+        ] = 2, # Default to 2 days of forecast weather data 
     ) -> WeatherContext:
         """Recent rainfall and humidity, and the 48-hour rain forecast, for one registered field.
 
