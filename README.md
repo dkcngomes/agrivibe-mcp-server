@@ -69,7 +69,7 @@ An MCP host starts this command itself for stdio clients.
 ### Streamable HTTP transport
 
 ```powershell
-uv run fieldsat --demo --transport http --host 127.0.0.1 --port 8000
+uv run fieldsat --demo --transport http --host 127.0.0.1 --port 8001
 ```
 
 The MCP endpoint is:
@@ -236,3 +236,6 @@ scripts/
   smoke_mcp.py         HTTP protocol integration check
 tests/                 Unit and MCP integration tests
 ```
+
+
+## Startup Locally : npx @modelcontextprotocol/inspector uv run fieldsat
