@@ -42,3 +42,5 @@ def create_server(
     register_resources(mcp, fields, find_field)
     register_prompts(mcp)
     return mcp
+
+# SERVER STARTUP COMMAND : npx @modelcontextprotocol/inspector uv run fieldsat
