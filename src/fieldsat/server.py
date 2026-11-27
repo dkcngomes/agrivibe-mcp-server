@@ -43,4 +43,5 @@ def create_server(
     register_prompts(mcp)
     return mcp
 
-# SERVER STARTUP COMMAND : npx @modelcontextprotocol/inspector uv run fieldsat
+# MONITORING SERVER STARTUP COMMAND : npx @modelcontextprotocol/inspector uv run fieldsat
+# MCP SERVER STARTUP COMMAND : uv run fieldsat --transport http --port 8001

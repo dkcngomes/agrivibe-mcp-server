@@ -75,13 +75,13 @@ uv run fieldsat --demo --transport http --host 127.0.0.1 --port 8001
 The MCP endpoint is:
 
 ```text
-http://127.0.0.1:8000/mcp
+http://127.0.0.1:8001/mcp
 ```
 
 The legacy SSE transport is also available:
 
 ```powershell
-uv run fieldsat --demo --transport sse --host 127.0.0.1 --port 8000
+uv run fieldsat --demo --transport sse --host 127.0.0.1 --port 8001
 ```
 
 Demo mode can also be enabled in the environment:
@@ -107,7 +107,7 @@ Start live stdio or HTTP mode:
 
 ```powershell
 uv run fieldsat
-uv run fieldsat --transport http --host 127.0.0.1 --port 8000
+uv run fieldsat --transport http --host 127.0.0.1 --port 8001
 ```
 
 Live mode uses Copernicus Sentinel-2 L2A through the Sentinel Hub Statistics API
@@ -188,7 +188,7 @@ The repository includes an ASGI app for uvicorn and platforms that discover
 `app.py`. Live credentials are required.
 
 ```powershell
-uv run uvicorn fieldsat.asgi:app --host 0.0.0.0 --port 8000
+uv run uvicorn fieldsat.asgi:app --host 0.0.0.0 --port 8001
 ```
 
 The ASGI app creates a stateless HTTP MCP server with JSON responses. It loads

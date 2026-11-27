@@ -21,7 +21,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="stdio: the client starts this process. http: serve on a URL. sse: legacy HTTP.",
     )
     parser.add_argument("--host", default="127.0.0.1", help="Address to listen on (http, sse)")
-    parser.add_argument("--port", type=int, default=8000, help="Port to listen on (http, sse)")
+    parser.add_argument("--port", type=int, default=8001, help="Port to listen on (http, sse)")
     parser.add_argument(
         "--demo",
         action="store_true",

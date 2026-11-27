@@ -2,7 +2,7 @@
 
 """ASGI app for hosting the live server behind uvicorn or a platform such as Vercel.
 
-uv run uvicorn fieldsat.asgi:app --port 8000
+uv run uvicorn fieldsat.asgi:app --port 8001
 """
 
 from dotenv import find_dotenv, load_dotenv

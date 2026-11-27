@@ -28,7 +28,7 @@ async def test_live_server_exposes_the_same_tools() -> None:
 def test_cli_defaults_to_stdio() -> None:
     args = parse_args([])
     assert args.transport == "stdio"
-    assert args.port == 8000
+    assert args.port == 8001
 
 
 def test_cli_accepts_http_and_demo() -> None:
