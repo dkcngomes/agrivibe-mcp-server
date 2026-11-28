@@ -244,4 +244,5 @@ tests/                 Unit and MCP integration tests
 ```
 
 
-## Startup Locally : npx @modelcontextprotocol/inspector uv run fieldsat
+## Startup MCP inspertor Locally : npx @modelcontextprotocol/inspector uv run fieldsat
+## Startup MCP SERVER Locally : uv run fieldsat --transport http --host 127.0.0.1 --port 8001
