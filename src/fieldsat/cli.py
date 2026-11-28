@@ -27,7 +27,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--demo",
         action="store_true",
-        default=os.environ.get("AgriVibe_MCP_DEMO") == "1",
+        default=os.environ.get("AGRIVIBE_MCP_DEMO") == "1",
         help="Serve fixed demo numbers instead of calling Copernicus and Open-Meteo.",
     )
     return parser.parse_args(argv)
@@ -35,7 +35,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> None:
     # Read .env from the working directory. Variables already set in the environment win.
-    # Load before parse_args: the --demo default reads AgriVibe_MCP_DEMO.
+    # Load before parse_args: the --demo default reads AGRIVIBE_MCP_DEMO.
     load_dotenv(find_dotenv(usecwd=True))
     args = parse_args(argv)
     # Logs go to stderr. With stdio, stdout carries the protocol and nothing else.

@@ -40,6 +40,12 @@ def test_cli_accepts_http_and_demo() -> None:
     assert (args.transport, args.port, args.demo) == ("http", 9000, True)
 
 
+def test_cli_enables_demo_from_environment(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("AGRIVIBE_MCP_DEMO", "1")
+
+    assert parse_args([]).demo
+
+
 def test_testing_module_builds_an_http_app() -> None:
     from fieldsat.testing import app
 

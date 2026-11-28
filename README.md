@@ -93,7 +93,7 @@ uv run fieldsat --demo --transport sse --host 127.0.0.1 --port 8001
 Demo mode can also be enabled in the environment:
 
 ```powershell
-$env:AgriVibe_MCP_DEMO="1"
+$env:AGRIVIBE_MCP_DEMO="1"
 uv run fieldsat
 ```
 
