@@ -1,4 +1,6 @@
-# Developer: D.K.C.Nipuna Gomes
+# Project: AgriVibes MCP Multi Agent Orchestration
+# Maintained By: D.K.C.N Gomes
+# Year: 2026
 
 """Prompts: reusable instructions a user picks from the client's menu."""
 

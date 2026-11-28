@@ -1,4 +1,8 @@
-"""Copernicus Sentinel-2 provider tests with mocked OAuth and statistics HTTP."""
+"""Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+
+Copernicus Sentinel-2 provider tests with mocked OAuth and statistics HTTP."""
 
 import json
 from datetime import UTC, datetime, timedelta

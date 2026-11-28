@@ -1,4 +1,8 @@
-"""Field registry tests."""
+"""Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+
+Field registry tests."""
 
 from dataclasses import replace
 

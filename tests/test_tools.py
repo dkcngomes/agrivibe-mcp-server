@@ -1,4 +1,8 @@
-"""Tool behaviour through a real MCP client connected in memory to the demo server."""
+"""Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+
+Tool behaviour through a real MCP client connected in memory to the demo server."""
 
 from typing import Any
 

@@ -1,4 +1,6 @@
-# Developer: D.K.C.Nipuna Gomes
+# Project: AgriVibes MCP Multi Agent Orchestration
+# Maintained By: D.K.C.N Gomes
+# Year: 2026
 
 """Weather aggregation for the frozen seven-day and 48-hour output windows."""
 

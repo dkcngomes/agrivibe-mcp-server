@@ -1,4 +1,8 @@
-"""Live Open-Meteo provider contract tests with mocked HTTP responses."""
+"""Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+
+Live Open-Meteo provider contract tests with mocked HTTP responses."""
 
 from collections.abc import Callable
 from datetime import UTC, datetime, timedelta

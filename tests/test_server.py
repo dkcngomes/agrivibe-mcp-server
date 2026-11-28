@@ -1,4 +1,8 @@
-"""The MCP surface: names, schemas, resources and prompts the server advertises."""
+"""Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+
+The MCP surface: names, schemas, resources and prompts the server advertises."""
 
 from fastmcp import Client
 

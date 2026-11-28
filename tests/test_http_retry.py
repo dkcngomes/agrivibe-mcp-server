@@ -1,4 +1,8 @@
-"""Bounded upstream retry policy tests."""
+"""Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+
+Bounded upstream retry policy tests."""
 
 import httpx
 import pytest

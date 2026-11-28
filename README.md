@@ -1,3 +1,9 @@
+<!--
+Project: AgriVibes MCP Multi Agent Orchestration
+Maintained By: D.K.C.N Gomes
+Year: 2026
+-->
+
 <!-- Developer: D.K.C.Nipuna Gomes -->
 
 # AgriVibe FieldSat MCP Server
